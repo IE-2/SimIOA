@@ -1,0 +1,47 @@
+ATOMS
+# i  m/amu    q/e    field  sig    eps
+F1  F1  18.998  -0.2192   lj     2.95   0.22175
+F2  F2  18.998  -0.2192   lj     2.95   0.22175
+S1  S1  32.066   0.9208   lj     3.55   1.04600
+S2  S2  32.066   0.9208   lj     3.55   1.04600
+O1  O1  15.999  -0.4280   lj     2.96   0.87864
+O2  O2  15.999  -0.4280   lj     2.96   0.87864
+O3  O3  15.999  -0.4280   lj     2.96   0.87864
+O4  O4  15.999  -0.4280   lj     2.96   0.87864
+N1  N1  14.000  -0.4912   lj     3.25   0.71128
+
+BONDS
+# i  j    type    re/A    ka/kJmol-1 (negative means a rigid constraint)
+F1  S1  harm    1.575   1879
+F2  S2  harm    1.575   1879
+S1  O1  harm    1.437   5331
+S1  O2  harm    1.437   5331
+S2  O3  harm    1.437   5331
+S4  O4  harm    1.437   5331
+N1  S1  harm    1.570   3137
+N1  S2  harm    1.570   3137
+
+ANGLES
+# i  j    k     type      th/deg   ka/kjmol-1
+O1  S1  O2   harm      118.5    969
+O3  S2  O4   harm      118.5    969
+N1  S1  O1   harm      113.6    789   
+N1  S1  O2   harm      113.6    789   
+N1  S2  O3   harm      113.6    789   
+N1  S2  O4   harm      113.6    789   
+S1  N1  S2   harm      125.6    671
+F1  S1  O1   harm      104.1   1077
+F1  S1  O2   harm      104.1   1077
+F2  S2  O3   harm      104.1   1077
+F2  S2  O4   harm      104.1   1077
+F1  S1  N1   harm      103.0    902
+F2  S2  N1   harm      103.0    902
+
+DIHEDRALS
+# i  j    k    l    type     v1         v2          v3          v4
+O1  S1  N1  S2  cos3     0.0000     0.0000     -0.0150      0.0000
+O2  S1  N1  S2  cos3     0.0000     0.0000     -0.0150      0.0000
+O3  S2  N1  S1  cos3     0.0000     0.0000     -0.0150      0.0000
+O4  S2  N1  S1  cos3     0.0000     0.0000     -0.0150      0.0000
+F1  S1  N1  S2  cos4    13.4514   -12.3373     -8.4874     -2.8654
+F2  S2  N1  S1  cos4    13.4514   -12.3373     -8.4874     -2.8654

@@ -1,0 +1,16 @@
+ATOMS
+OW    OW     15.999  -0.8476   lj    3.17   0.65019
+HW1   HW1     1.080   0.4238   lj    0.00   0.00000
+HW2   HW2     1.080   0.4238   lj    0.00   0.00000
+
+BONDS
+OW  HW1  cons   1.000   3450.0
+OW  HW2  cons   1.000   3450.0
+
+ANGLES
+HW1 OW  HW2  harm   109.5   383.0
+
+DIHEDRALS
+
+IMPROPERS
+

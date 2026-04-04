@@ -1,0 +1,25 @@
+ATOMS
+CL1   CL1    35.453   1.0812   lj    3.47   1.10880
+Oc1   Oc1    15.999  -0.5203   lj    2.96   0.87860
+Oc2   Oc2    15.999  -0.5203   lj    2.96   0.87860
+Oc3   Oc3    15.999  -0.5203   lj    2.96   0.87860
+Oc4   Oc4    15.999  -0.5203   lj    2.96   0.87860
+
+BONDS
+Oc1 CL1  harm   1.452   1799.1
+Oc2 CL1  harm   1.452   1799.1
+Oc3 CL1  harm   1.452   1799.1
+Oc4 CL1  harm   1.452   1799.1
+
+ANGLES
+Oc1 CL1 Oc2  harm   109.5   460.2
+Oc1 CL1 Oc3  harm   109.5   460.2
+Oc1 CL1 Oc4  harm   109.5   460.2
+Oc2 CL1 Oc4  harm   109.5   460.2
+Oc2 CL1 Oc3  harm   109.5   460.2
+Oc3 CL1 Oc4  harm   109.5   460.2
+
+DIHEDRALS
+
+IMPROPERS
+
